@@ -1,0 +1,45 @@
+.clickBtn {
+    transition: all ease-in-out 200ms;
+
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.clickBtn:hover {
+    scale: 1.02;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.btnOverlay {
+    transition: all ease-in-out 300ms;
+
+    left: -100%;
+}
+
+.clickBtn:hover .btnOverlay {
+    left: 0%;
+}
+
+.battery {
+    width: 200px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.batteryClip {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px 10px 0 0;
+}
+
+.batteryCharge {
+    transition: all ease-in-out 180ms;
+    top: 100%;
+}
+
+.upgradeBtn {
+    width: 400px;
+    height: 60px;
+    border-radius: 50px;
+}
